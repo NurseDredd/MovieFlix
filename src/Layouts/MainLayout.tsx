@@ -1,6 +1,8 @@
-
+import { MoviesPage } from "../Pages/MoviesPage";
 export const MainLayout = () => {
   return (
-    <div>MainLayout</div>
+    <main>
+        <MoviesPage/>
+    </main>
   )
 }

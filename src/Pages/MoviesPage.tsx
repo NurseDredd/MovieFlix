@@ -1,8 +1,8 @@
-
+import { Header } from '../Components/UI/Header'
 
 export const MoviesPage = () => {
   return (
-    <h1>Populära Filmer</h1>
+    <Header title='Populära Filmer'/>
   )
 }
 
